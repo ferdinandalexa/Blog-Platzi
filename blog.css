@@ -2,6 +2,10 @@ body {
     margin: auto;
 }
 
+.contenedor{
+    width: 33%;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -62,4 +66,15 @@ body {
 
 .main{
     background-color: #EFEFEF;
+}
+
+.fila{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
