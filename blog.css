@@ -39,9 +39,23 @@ body {
     color: white;
 }
 
-.boton {
+.boton-log, .footer .boton {
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.boton-log {
+    border: none;
     font-size: 16px;
+    color: white;
     margin: 0px 20px;
+    background-image: linear-gradient(to left, #fd324e, #ff7250);
+    box-shadow: inset 0 -0.2em rgba(0, 0, 0, .3);
+}
+
+.boton-log:hover {
+    background-image: linear-gradient(to left, #fd3232, #ff5050);
+    cursor: pointer;
 }
 
 .buscador {
@@ -101,6 +115,15 @@ body {
     justify-content: center;
     align-items: center;
     margin: 70px 0px;
+}
+
+.footer .boton {
+    border: 1px solid #cdcdcd;
+}
+
+.footer .boton:hover {
+    background: #cdcdcd;
+    cursor: pointer;
 }
 
 .footer .boton, .footer p {
