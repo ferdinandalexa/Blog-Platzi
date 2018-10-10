@@ -4,8 +4,8 @@ body {
 }
 
 .contenedor {
-    width: 30%;
-    margin: 2px auto;
+    max-width: 1024px;
+    margin: auto;
 }
 
 .header {
@@ -46,9 +46,8 @@ body {
 
 .buscador {
     display: flex;
-    align-items: center;
     justify-content: flex-end;
-    padding: 5px 125px 5px 0px;
+    padding: 5px 65px 5px 0px;
 }
 
 .buscador #buscador {
@@ -88,7 +87,12 @@ body {
     margin: auto;
 }
 
-.fila .contenedor img {
+.articulo {
+    width: 30%;
+    margin: 2px auto;
+}
+
+.fila .articulo img {
     width: 100%;
 }
 
