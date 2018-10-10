@@ -3,9 +3,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.contenedor{
+.contenedor {
     width: 30%;
-    margin: 0px auto;
+    margin: 2px auto;
 }
 
 .header {
@@ -48,18 +48,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding : 5px 125px 5px 0px;
+    padding: 5px 125px 5px 0px;
 }
 
-.buscador #buscador{
+.buscador #buscador {
     width: 200px;
     height: 34px;
     border: none;
     border-radius: 3px;
-
 }
 
-.buscador .icono{
+.buscador .icono {
     display: flex;
     background-color: #29292b;
     padding: 10px;
@@ -67,18 +66,39 @@ body {
     margin-left: 5px;
 }
 
-.main{
+.buscador .icono img {
+    width: 17px;
+}
+
+.main {
     background-color: #EFEFEF;
 }
 
-.fila{
+.fila {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
-.posts{
+.posts {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.titulo {
+    margin: auto;
+}
+
+.fila .contenedor img {
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0px;
+}
+
+.footer .boton, .footer p {
+    margin: 0px 5px;
 }
